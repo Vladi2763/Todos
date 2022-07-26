@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    background-color: white;
+    padding: 15px 5px 15px 5px;
+    color: grey;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.category {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.selectedCategory {
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.clearing {
+    cursor: pointer;
+}
