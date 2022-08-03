@@ -1,0 +1,14 @@
+.search {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: grey;
+}
+
+.search__label {
+  margin-right: 10px;
+}
+
+.search__input:hover {
+  background-color: rgb(228, 228, 228);
+}

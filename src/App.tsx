@@ -1,6 +1,5 @@
-
-import classes from './App.module.css'
-import Main from './components/Main';
+import classes from "./App.module.css";
+import Main from "./components/Main";
 
 function App() {
   return (

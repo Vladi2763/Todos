@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 700px;
+}
+
+.form {
+  position: relative;
+}
+
+.form__image {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 5px;
+  top: 15px;
+  cursor: pointer;
+  transform: rotate(178deg);
+}
+
+.form__imageNonActive {
+  transform: rotate(0deg);
+}
+
+.form_input {
+  color: grey;
+  width: 100%;
+  height: 50px;
+  padding: 15px 15px 15px 40px;
+  border: none;
+  border-bottom: 2px solid rgba(196, 192, 192, 0.274);
+}
+
+.form_input:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.menuTodos {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.menuTodos__todos {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 40%;
+}
+
+.menuTodos__dragger {
+  width: 3px;
+  height: 100%;
+  color: rgba(196, 192, 192, 0.274);
+  cursor: crosshair;
+}
+
+.menuTodos__todosEditor {
+  display: flex;
+  width: 60%;
+  min-width: 40%;
+  border: 1px solid rgba(196, 192, 192, 0.274);
+  padding: 15px;
+}
+
+.menuTodos__todosEditor:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.container__repeat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: rgb(247, 81, 81);
+  height: 30px;
+  border: 1px solid rgba(196, 192, 192, 0.274);
+}

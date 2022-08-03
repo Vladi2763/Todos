@@ -1,0 +1,39 @@
+.todo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px 5px 15px 5px;
+  border-bottom: 2px solid rgba(196, 192, 192, 0.274);
+}
+
+.todo:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.todo__image {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.todo__text {
+  font-size: 24px;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.todo__inprogress {
+  color: rgb(109, 109, 233);
+}
+
+.todo__completed {
+  text-decoration: line-through;
+  color: greenyellow;
+}
+
+.selectedTodo {
+  background-color: rgb(182, 182, 182);
+}
